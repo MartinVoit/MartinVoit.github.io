@@ -1,0 +1,30 @@
+.nav-clct{
+    color: white;
+}
+.nav-clct:hover{
+    color: green;
+}
+.nav{
+    color: gray;
+}
+    
+
+
+
+.footer{
+    background-color: #181818;
+    width: 100%;
+    height: 12%;
+    min-height: 120px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.navbar{
+    background-color: #181818;
+}
+
+
+
