@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Martin Voit</title>
+    <link type="text/css" rel="stylesheet" href="Stylesheet/main.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="Scripts/script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Stylesheet/terminal.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto+Mono:400,700" rel="stylesheet">
+    <script src="Scripts/typed.js"></script>
+</head>
+
+<body>
+    <div class="border-side terminal">
+        <div class="head">
+            <h6>Terminal</h6>
+        </div>
+        <span class="type"></span>
+    </div>
+    <script>
+        $("document").ready(function () {
+            let text = ["cd /home/user/developer/Martin^1000\n `sudo portfolio start`^1000\n"];
+            let systemText = [" `starting components...` ^1000\n `Fetching from source...`"];
+
+            var t = new Typed(".type", {
+                strings: ["text"],
+                backSpeed: 0,
+                typeSpeed: 40,
+
+
+            });
+        });
+    </script>
+</body>
+
+</html>

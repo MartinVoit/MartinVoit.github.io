@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(228, 226, 226);
+     font-family: 'Roboto Mono', monospace;
+     color: white;
+     background-image: url("Resources/Images/martin_intro.jpg");
+}
+.terminal{
+    width:50em;
+    height:30em;
+    margin: auto;
+    margin-top: 10%;
+    background-color: #121212;
+   
+
+}
+
+.head{
+    width: 50em;
+    height: 2em;
+    background-color: silver;
+    padding-top:5px;
+    padding-left:42%;
+    padding-right: auto;
+    color:black;
+    
+}
+
+
