@@ -2,7 +2,9 @@
     font-family: 'Roboto Mono', monospace;
     
 }
-
+:hover{
+    color:white;
+}
 
 .nav-clct:hover{
     color: white;
