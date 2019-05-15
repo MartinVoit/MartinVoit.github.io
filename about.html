@@ -5,20 +5,16 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Martin Voit - About</title>
 
-    <title>Martin Voit - Impressionen</title>
-
-    <link type="text/css" rel="stylesheet" href="Stylesheet/main.css">
+    <link type="text/css" rel="stylesheet" href="Stylesheet/about.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto+Mono:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
 
-
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="Scripts/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-
-
 </head>
 
 <body>
@@ -30,11 +26,11 @@
             <div id="my-nav" class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto" id="typed-strings">
                     <li class="nav-item">
-                        <a class="nav-link nav-clct nav" id="impressionen" href="#">IMPRESSIONEN</a>
+                        <a class="nav-link nav" id="impressionen" href="#">IMPRESSIONEN</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link nav" id="about" href="#">ABOUT</a>
+                        <a class="nav-link nav nav-clct" href="#">ABOUT</a>
 
                     </li>
 
@@ -58,27 +54,29 @@
             </div>
         </nav>
     </header>
+    <main>
+        <div class="banner">
 
+        </div>
+
+
+    </main>
 
 
 
 
     <script>
-        $(".nav").click(function (event) {
-            $(".nav-clct").attr("class", "nav-link nav");
+        $(document).ready(function () {
+            $("html").hide();
+            $("html").fadeIn("fast", function () {
 
-            $(this).attr("class", "nav-link nav-clct");
-
-        });
-        $("#about").click(function (event) {
-            $("html").fadeOut("fast", function () {
-                window.location.replace("about.html");
             });
         });
 
-        $(document).ready(function () {
-            $("html").hide();
-            $("html").fadeIn("fast");
+        $("#impressionen").click(function (event) {
+            $("html").fadeOut("fast", function () {
+                window.location.replace("main.html");
+            });
         });
 
 
