@@ -1,5 +1,5 @@
 $("document").ready(function () {
-    let text = ["Well... I am", "Web Developer.", "Designer.", "UML Engineer.", "IoT Enthusiast.", "Have fun!"];
+    let text = ["Well... I'm", "Web Developer.", "Designer.", "UML Engineer.", "IoT Enthusiast.", "Have fun!"];
 
 
     var t = new Typed(".type", {
@@ -7,7 +7,7 @@ $("document").ready(function () {
         backSpeed: 30,
         typeSpeed: 30,
         backDelay: 1500,
-        startDelay: 1500
+        startDelay: 2000
 
 
     });
