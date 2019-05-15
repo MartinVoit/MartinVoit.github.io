@@ -21,9 +21,8 @@ $("document").ready(function () {
     var imageDataArray = [];
     var canvasCount = 35;
     setInterval(() => {
-        $("html").fadeOut("slow", function () {
-            window.location.replace("./main.html")
-        });
+        window.location.replace("./main.html")
+
     }, 17000);
     clearInterval();
 
